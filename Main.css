@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(250, 208, 160);
+    color:rgb(88, 68, 10);
+}
+
+h2 {
+    height: 150px;
+    width: 200px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+p {
+    margin-right: 200px;
+    text-align: center;
+}
+
+head {
+    text-align: center;
+}
