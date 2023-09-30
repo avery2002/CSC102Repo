@@ -1,25 +1,35 @@
+/*This section customizes the body of the website*/
 body{
+    /*These control the background and text color*/
     background-color: rgb(250, 208, 160);
     color:rgb(88, 68, 10);
 }
 
+/*This section customizes the head of the body of the website*/
 h2 {
+    /*These control the height and width of the body*/
     height: 150px;
     width: 200px;
     padding: 5px;
     line-height: 30px;
 }
 
+/*This section customizes the footer of the website*/
 footer {
+    /*These control the alignment of the text and the section margins*/
     text-align: center;
     margin-right: 200px;
 }
 
+/*This section customizes the paragraph of the website, which holds the meme image*/
 p {
+    /*These control the alignment of the text and the section margins*/
     margin-right: 200px;
     text-align: center;
 }
 
+/*This section customizes the header of the website*/
 head {
+    /*This controls the alignment of the text*/
     text-align: center;
 }
