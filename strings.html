@@ -1,0 +1,80 @@
+<!-- Avery Willets -->
+<!-- 12/7/23 -->
+<!-- this tells the browser that the page is HTML 5 -->
+<!DOCTYPE html>
+<!-- HTML tag is required, language is set to english-->
+<html lang="en">
+<!-- This section is for the browser and search engine primarily-->
+<head>
+    <!-- This page can support almost any character in almost any language -->
+    <meta charset="UTF-8">
+    <!-- This tag is so the qebsite will look good on devices or mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This text is what will appear in the browser tag -->
+    <title>CSC102 Homepage</title>
+    <link rel="stylesheet" href="Main.css">
+    <script src="strings.js"></script>
+</head>
+
+
+<!-- All of our page content should go here -->
+<body>
+    <!-- The page heading - the page title, only 1 allowed -->
+    <header><h1>
+        CSC102  Homepage
+    </h1></header>
+
+    <!-- This is our navigation section-->
+    <nav>
+        <h2>
+            <!-- This is the link to the index page-->
+            <a href="./Index.html">Home</a><br>
+            <!-- This is the link to the boards page-->
+            <a href="./Boards.html">Boards</a><br>
+            
+            <a href="CrapsGame.html">Game</a><br>
+
+            <a href="strings.html">Strings</a><br>
+        </h2>
+    </nav>
+
+    <!-- This paragraph holds the user inputs -->
+    <p>
+        <!-- This is the form that holds future user inputs-->
+        <form>
+            <!-- This field holds the user's first name input -->
+            <label for="Fname"> First Name: </label>
+            <input type="text" name="Fname" id="fname"><br><br>
+            
+            <!-- This field holds the user's last name input -->
+            <label for="Lname"> Last Name: </label>
+            <input type="text" name="Lname" id="lname"><br><br>
+            
+            <!-- This field holds the user's zip code input -->
+            <label for="Zip"> Zip Code: </label>
+            <input type="text" name="Zip" id="zip"><br><br>
+        </form>
+
+        
+    </p>
+
+    <!-- This is the footer section and should be at the bottom of the body section -->
+    <footer>
+        Avery Willets
+        <br>
+        University of Advancing Technology
+        <br>
+        2625 W Baseline Road
+        <br>
+        Tempe, AZ 85283
+        <br>
+    </footer>
+    
+</body>
+</html>
+
+<!-- This calls my javascript function strings.js and displays the initial alert-->
+<script>
+    getInput();
+    displayAlert;
+</script>
