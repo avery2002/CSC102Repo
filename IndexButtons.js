@@ -1,3 +1,5 @@
+// Avery Willets
+// 12/7/23
 // This file contains the buttons for the Index.html page
 
 // This function actually moves the meme image around
