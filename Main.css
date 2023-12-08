@@ -1,3 +1,5 @@
+/*Avery Willets*/
+/*12/7/23*/
 /*This section customizes the body of the website*/
 body{
     /*These control the background and text color*/
@@ -32,4 +34,18 @@ p {
 head {
     /*This controls the alignment of the text*/
     text-align: center;
+}
+
+/*This section customizes how the memeImage looks on the Index.html page*/
+#memeImage {
+    /*This controls the width of the image*/
+    width: 400px;
+    /*This controls the position of the image to be relative to objects around it*/
+    position: relative;
+    /*This controls the proportion of the height of the image*/
+    top: 50%;
+    /*This controls the proportion of the length of the image*/
+    left: 50%;
+    /*This controls how the image is transformed. It uses standard syntax*/
+    transform: translate(-50%, -50%);
 }

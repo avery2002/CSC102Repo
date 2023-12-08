@@ -1,4 +1,5 @@
-<!-- 9/14/23 -->
+<!-- Avery Willets -->
+<!-- 12/7/23 -->
 <!-- this tells the browser that the page is HTML 5 -->
 <!DOCTYPE html>
 <!-- HTML tag is required, language is set to english-->
@@ -11,7 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This text is what will appear in the browser tag -->
     <title>CSC102 Homepage</title>
+    <!-- This references the Main.css page for the style of the webpage -->
     <link rel="stylesheet" href="Main.css">
+    <!-- This references the IndexButtons.js page for the javascript -->
+    <script src="IndexButtons.js"></script>
 </head>
 
 
@@ -32,10 +36,18 @@
         </h2>
     </nav>
 
-    <!-- This paragraph tag will hold our meme-->
+    <!-- This paragraph tag holds our meme-->
     <p>
         <!-- This is the meme image-->
         <img id="memeImage" src="26_-_Wait_What_Meme.png" alt="Meme Image">
+    </p>
+
+    <!-- These buttons control if the button moves -->
+    <p>
+        <!-- This button causes the meme image to start moving -->
+        <button id="startButton" onclick="startMoving()">Start Moving</button>
+        <!-- This button causes the meme image to stop moving -->
+        <button id="stopButton" onclick="stopMoving()">Stop Moving</button>
     </p>
 
     <!-- This is the footer section and should be at the bottom of the body section -->
