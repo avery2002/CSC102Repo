@@ -27,8 +27,8 @@ function startMoving() {
     // This stops disabling the stop button
     stopButton.disabled = false;
 
-    // This moves the meme image at intervals of one second
-    moveInterval = setInterval(moveMeme, 1000);
+    // This moves the meme image at intervals of 0.5 seconds
+    moveInterval = setInterval(moveMeme, 500);
 }
 
 // This function stops moving the memeImage and disables the stop button
