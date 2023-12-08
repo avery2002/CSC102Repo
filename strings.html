@@ -41,7 +41,7 @@
     <!-- This paragraph holds the user inputs -->
     <p>
         <!-- This is the form that holds future user inputs-->
-        <form>
+        <form name="Form1" method="post" onsubmit="return validateInputs()">
             <!-- This field holds the user's first name input -->
             <label for="Fname"> First Name: </label>
             <input type="text" name="Fname" id="fname"><br><br>
@@ -53,6 +53,8 @@
             <!-- This field holds the user's zip code input -->
             <label for="Zip"> Zip Code: </label>
             <input type="text" name="Zip" id="zip"><br><br>
+
+            <input type="Submit" value="Submit">
         </form>
 
         
@@ -72,9 +74,3 @@
     
 </body>
 </html>
-
-<!-- This calls my javascript function strings.js and displays the initial alert-->
-<script>
-    getInput();
-    displayAlert;
-</script>
