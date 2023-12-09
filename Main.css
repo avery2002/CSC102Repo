@@ -8,6 +8,17 @@ body{
 }
 
 /*This section customizes the head of the body of the website*/
+h1 {
+    /*These control the height and width of the header*/
+    height: 150px;
+    width: 500px;
+    padding: 5px;
+    line-height: 30px;
+    /*This controls the font of the text of the header*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*This section customizes the head of the body of the website*/
 h2 {
     /*These control the height and width of the body*/
     height: 150px;
@@ -34,6 +45,7 @@ p {
 head {
     /*This controls the alignment of the text*/
     text-align: center;
+    
 }
 
 /*This section customizes how the memeImage looks on the Index.html page*/
