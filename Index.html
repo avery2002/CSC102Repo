@@ -1,5 +1,5 @@
 <!-- Avery Willets -->
-<!-- 12/7/23 -->
+<!-- 12/8/23 -->
 <!-- this tells the browser that the page is HTML 5 -->
 <!DOCTYPE html>
 <!-- HTML tag is required, language is set to english-->
@@ -47,8 +47,19 @@
         <!-- This button causes the meme image to start moving -->
         <button id="startButton" onclick="startMoving()">Start Moving</button>
         <!-- This button causes the meme image to stop moving -->
-        <button id="stopButton" onclick="stopMoving()">Stop Moving</button>
+        <button id="stopButton" onclick="stopMoving()">Stop Moving</button><br><br>
     </p>
+
+    <!-- This paragraph holds the audio for the site -->
+    <p>
+        <!-- This holds the audio. The controls allow the user to press play and pause-->
+        <audio controls autoplay>
+            <!-- This references the audio to be used-->
+            <source src="IndexAudio.m4a" type="audio/ogg">
+            <source src="IndexAudio.m4a" type="audio/mpeg">
+          </audio>
+    </p>
+    
 
     <!-- This is the footer section and should be at the bottom of the body section -->
     <footer>
