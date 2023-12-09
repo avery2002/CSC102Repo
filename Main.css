@@ -61,3 +61,15 @@ head {
     /*This controls how the image is transformed. It uses standard syntax*/
     transform: translate(-50%, -50%);
 }
+
+#mathImage {
+    width: 100px;
+    /*This controls the position of the image to be relative to objects around it*/
+    position: fixed;
+    /*This controls the proportion of the height of the image*/
+    top: 25%;
+    /*This controls the proportion of the length of the image*/
+    left: 25%;
+    /*This controls how the image is transformed. It uses standard syntax*/
+    transform: translate(-50%, -50%);
+}
