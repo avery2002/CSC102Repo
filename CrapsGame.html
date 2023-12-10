@@ -1,3 +1,6 @@
+<!-- Avery Willets-->
+<!-- 12/9/23 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>W3 Game</title>
     <script src="CrapsGame.js"></script>
+    <!-- This references the Main.css page for the style of the webpage -->
+    <link rel="stylesheet" href="Main.css">
 </head>
 <body>
     <!-- This is the page header -->
-    <h1>Welcome, let's play a dice game called craps!</h1>
+    <head><h1>Welcome, let's play a dice game called craps!</h1></head>
 
     <!-- Code for button, when clicked this will start the game -->
     <button onclick="playCraps();">Play Craps</button>
@@ -19,7 +24,27 @@
     <!-- This will show the second die roll -->
     <div id="die2Res">Die 2 Results</div>
     <!-- This will show the sum of the die rolls -->
-    <div id="sumRes">Sum Results</div>
+    <div id="sumRes">Sum Results</div><br>
+
+        <!-- This navigation bar allows the user to move to different pages-->
+        <nav>
+            <!-- This takes the user back to the main page -->
+            <a href="CSC102MainPage.html">Main Page</a><br>
+            <!-- This takes the user to the Boards page -->
+            <a href="./Boards.html">Boards</a><br>
+            <!-- This takes the user to the meme page -->
+            <a href="Meme.html">Meme</a><br>
+            <!-- This takes the user to the Craps Game page -->
+            <a href="CrapsGame.html">Craps Game</a><br>
+            <!-- This takes the user to the Mashup page -->
+            <a href="Mashup.html">Mashup: Multiplication Checker</a><br>
+            <!-- This takes the user to the Palindrome Checker page -->
+            <a href="Palindrome.html">Palindrome Checker</a><br>
+            <!-- This takes the user to the User Input Validation page -->
+            <a href="strings.html">User Input Validation</a><br>
+            <!-- This takes the user to the Class Schedule Table page -->
+            <a href="ClassSchedule.html">Class Schedule Table</a><br>
+        </nav>
     
 </body>
 </html>

@@ -11,22 +11,19 @@
     <!-- This tag is so the qebsite will look good on devices or mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This text is what will appear in the browser tag -->
-    <title>Mashup Page</title>
+    <title>CSC102 Homepage</title>
     <!-- This references the Main.css page for the style of the webpage -->
     <link rel="stylesheet" href="Main.css">
-    <!-- This references the IndexButtons.js page for the javascript -->
-    <script src="Mashup.js"></script>
 </head>
 
+<!-- This holds the body of the site that the user will see -->
 <body>
+    <h1>Willets Home Page</h1>
 
-    <!-- This displays the header for the site -->
-    <h1>
-        Check Your Multiplication Skills!
-    </h1>
 
-      <!-- This navigation bar allows the user to move to different pages-->
-      <nav>
+    <!-- This is our navigation section-->
+    <nav>
+        <h2>
         <!-- This takes the user back to the main page -->
         <a href="CSC102MainPage.html">Main Page</a><br>
         <!-- This takes the user to the Boards page -->
@@ -43,37 +40,32 @@
         <a href="strings.html">User Input Validation</a><br>
         <!-- This takes the user to the Class Schedule Table page -->
         <a href="ClassSchedule.html">Class Schedule Table</a><br>
+        </h2>
     </nav>
-    
 
-    <p>
-        <!-- This form takes in two numbers from a user and what they think the result is-->
-        <form name="Form1" method="post" onsubmit="return showResults()">
-            
-            <!-- This takes in the user's input for the first number -->
-            <label for="num1"> Number 1: </label>
-            <input type="text" name="num1" id="num1"><br><br>
-            
-            <!-- This takes in the user's input for the second number -->
-            <label for="num2"> Number 2: </label>
-            <input type="text" name="num2" id="num2"><br><br>
-
-            <!-- This takes in the user's input for the product -->
-            <label for="numSum"> Number 1 * Number 2: </label>
-            <input type="text" name="numSum" id="numSum"><br><br>
-
-            <!-- This submits the information -->
-            <input type="Submit" value="Check your answer!">
-        </form>
+        <!--
+    <p id="mainPageParagraph">
+        This is the main page for all of my projects this semester.<br>
+        I hope you enjoy looking around! I recommend starting with my Meme page.<br>
     </p>
+    -->
 
-    <!-- This holds the image that is displayed -->
+    <!--
     <p>
-        <div id="mathImage" style="display: block;"></div>
-            <img src="DoingMath.webp" alt="Math Image">
+        <img id="mainImage" src="MainImage.webp" alt="Main Image">
     </p>
-   
-    
+    -->
 
+     <!-- This is the footer section and should be at the bottom of the body section -->
+     <footer>
+        Avery Willets
+        <br>
+        University of Advancing Technology
+        <br>
+        2625 W Baseline Road
+        <br>
+        Tempe, AZ 85283
+        <br>
+    </footer>
 </body>
 </html>

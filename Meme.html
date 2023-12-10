@@ -11,15 +11,20 @@
     <!-- This tag is so the qebsite will look good on devices or mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- This text is what will appear in the browser tag -->
-    <title>Willets Class Schedule</title>
+    <title>Meme Page</title>
     <!-- This references the Main.css page for the style of the webpage -->
     <link rel="stylesheet" href="Main.css">
+    <!-- This references the IndexButtons.js page for the javascript -->
+    <script src="IndexButtons.js"></script>
 </head>
 
-<!-- This holds the body of the website, which will be displayed-->
+
+<!-- All of our page content should go here -->
 <body>
-    <!-- This holds the title for the site which will be seen -->
-    <h1>Willets Class Schedule FA23</h1>
+    <!-- The page heading - the page title, only 1 allowed -->
+    <header><h1>
+        Meme Page
+    </h1></header>
 
          <!-- This navigation bar allows the user to move to different pages-->
          <nav>
@@ -41,38 +46,42 @@
             <a href="ClassSchedule.html">Class Schedule Table</a><br>
         </nav>
 
-    <!-- This table holds a class schedule-->
-    <table>
-        <!-- The first row of this table is just the title for each column-->
-        <tr>
-            <th>Class Name</th>
-            <th>Days</th>
-            <th>Times</th>
-        </tr>
-        <!-- The second row of this table holds info for my Statistics class -->
-        <tr>
-            <th>MAT220: Statistics</th>
-            <th>Mon/Wed</th>
-            <th>12:30pm-1:20pm</th>
-        </tr>
-        <!-- The third row of this table holds info for my Production Studio class -->
-        <tr>
-            <th>PDS300: Production Studio</th>
-            <th>Mon/Fri</th>
-            <th>10:30am-11:20am, 4:30pm-5:20pm</th>
-        </tr>
-        <!-- The fourth row of this table holds info for my Intro to Programming class -->
-        <tr>
-            <th>CSC102: Introduction to Programming</th>
-            <th>Tue/Thu</th>
-            <th>9:30am-10:20am</th>
-        </tr>
-        <!-- The second row of this table holds info for my Intro to Databases class -->
-        <tr>
-            <th>CSC211: Introduction to Databases</th>
-            <th>Tue/Thu</th>
-            <th>11:30am-12:20pm</th>
-        </tr>
-    </table>
+    <!-- This paragraph tag holds our meme-->
+    <p>
+        <!-- This is the meme image-->
+        <img id="memeImage" src="26_-_Wait_What_Meme.png" alt="Meme Image">
+    </p>
+
+    <!-- These buttons control if the button moves -->
+    <p>
+        <!-- This button causes the meme image to start moving -->
+        <button id="startButton" onclick="startMoving()">Start Moving</button>
+        <!-- This button causes the meme image to stop moving -->
+        <button id="stopButton" onclick="stopMoving()">Stop Moving</button><br><br>
+    </p>
+
+    <!-- This paragraph holds the audio for the site -->
+    <p>
+        <!-- This holds the audio. The controls allow the user to press play and pause-->
+        <audio controls autoplay>
+            <!-- This references the audio to be used-->
+            <source src="IndexAudio.m4a" type="audio/ogg">
+            <source src="IndexAudio.m4a" type="audio/mpeg">
+          </audio>
+    </p>
+    
+
+    <!-- This is the footer section and should be at the bottom of the body section -->
+    <footer>
+        Avery Willets
+        <br>
+        University of Advancing Technology
+        <br>
+        2625 W Baseline Road
+        <br>
+        Tempe, AZ 85283
+        <br>
+    </footer>
+    
 </body>
 </html>
